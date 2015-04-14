@@ -1,0 +1,36 @@
+body {
+  background: #000;
+}
+
+.container {
+  height:50px;
+}
+
+.col-xs-3 {     
+  background: #4B6629;
+  color: #FFF; 
+  text-align: center;
+  font-size: small;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.logo {     
+  padding-left: 0px;
+  background: #fff;    
+}
+
+h5{
+  margin-top: 7px;
+  margin-bottom: 8px;
+  text-align: center;
+  color: #FFF; 
+}
+
+.btn-fill {
+  width: 100%;
+  font-size: small;
+  background: #4B6629;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

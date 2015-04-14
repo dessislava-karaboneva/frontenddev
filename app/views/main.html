@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-1 logo"><img src="/images/meercat.svg" alt="Qriously logo" height="50"></div>
+      <div class="col-xs-11">
+        <div class="row">         
+            <div class="col-xs-12 question"><h5>{{question}}</h5></div>         
+      </div>
+        <div class="row">  
+          <div class="col-xs-1"></div>      
+            <div class="col-xs-3">
+              <button class="btn btn-fill" ng-click="getResults()">
+                {{choices[0]}}
+              </button>
+            </div>
+            <div class="col-xs-1"></div>
+          <div class="col-xs-3">
+            <button class="btn btn-fill" ng-click="getResults()">
+                {{choices[1]}}
+              </button>
+          </div>
+          <div class="col-xs-1"></div>
+          <div class="col-xs-3">
+            <button class="btn btn-fill" ng-click="getResults()">
+                {{choices[2]}}
+              </button>
+          </div>      
+      </div>
+      </div>  
+  </div>    
+</div>
+
